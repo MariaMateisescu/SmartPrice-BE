@@ -1,0 +1,1980 @@
+{
+  "Items": [
+    {
+      "id": "6911",
+      "retailnetwork": {
+        "id": "5940475870003",
+        "name": "MEGA IMAGE SRL",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+        }
+      },
+      "name": "MI CIRCUMVALATIUNII",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "CALEA CIRCUMVALATIUNII NR. 8-1",
+        "zipcode": "300012",
+        "location": { "Lat": 45.75719, "Lon": 21.218957 },
+        "wkt": "POINT(21.218957 45.75719)",
+        "uatid": "155243"
+      },
+      "basketprice": 115,
+      "distance": 0.74,
+      "lastupdate": "03.02.2023 15:11",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+      },
+      "Products": [
+        {
+          "id": "4418972915",
+          "storeid": "6911",
+          "name": "ACHAVAL FERRER VIN ROSU 750ML",
+          "unit": "BUCATI",
+          "brand": "Achaval Ferrer",
+          "price": 115,
+          "retailcategname": "VIN-ROSU",
+          "retailcategid": "02080901",
+          "pricedate": "04.02.2023 04:00",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475870003"
+        }
+      ]
+    },
+    {
+      "id": "4884",
+      "retailnetwork": {
+        "id": "5940475870003",
+        "name": "MI BUREBISTA TM",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+        }
+      },
+      "name": "MI BUREBISTA TM",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "BUREBISTA NR. 3-5, BLOC 100",
+        "zipcode": "300659",
+        "location": { "Lat": 45.763917, "Lon": 21.218333 },
+        "wkt": "POINT(21.218333 45.763917)",
+        "uatid": "155243"
+      },
+      "distance": 0.17,
+      "lastupdate": "03.02.2023 15:11",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+      },
+      "Products": [
+        {
+          "storeid": "4884",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475870003"
+        }
+      ]
+    },
+    {
+      "id": "6038",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA DACIA",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA DACIA",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Strada Burebista Nr.8-14",
+        "location": { "Lat": 45.7654397, "Lon": 21.21861876 },
+        "wkt": "POINT(21.21861876 45.7654397)",
+        "uatid": "155243",
+        "contactdetails": "2913@magazin.profi.ro"
+      },
+      "distance": 0.24,
+      "lastupdate": "03.02.2023 07:21",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "6038",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "804",
+      "retailnetwork": {
+        "id": "5940475006709",
+        "name": "MARKET TIMISOARA",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Carrefour.png"
+        }
+      },
+      "name": "MARKET TIMISOARA",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Piata Dacia, Str. Burebista nr. 11, Timisoara",
+        "zipcode": "300678",
+        "location": { "Lat": 45.765083, "Lon": 21.21784 },
+        "wkt": "POINT(21.21784 45.765083)",
+        "uatid": "155243"
+      },
+      "distance": 0.26,
+      "lastupdate": "03.02.2023 11:41",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/CarrefourMarket.png"
+      },
+      "Products": [
+        {
+          "storeid": "804",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475006709"
+        }
+      ]
+    },
+    {
+      "id": "2444",
+      "retailnetwork": {
+        "id": "5940475870003",
+        "name": "SG TIMIS 12",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+        }
+      },
+      "name": "SG TIMIS 12",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "TIMIS, NR.12, P",
+        "zipcode": "300650",
+        "location": { "Lat": 45.76572222, "Lon": 21.21786111 },
+        "wkt": "POINT(21.21786111 45.76572222)",
+        "uatid": "155243"
+      },
+      "distance": 0.3,
+      "lastupdate": "03.02.2023 15:11",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+      },
+      "Products": [
+        {
+          "storeid": "2444",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475870003"
+        }
+      ]
+    },
+    {
+      "id": "1366",
+      "retailnetwork": {
+        "id": "KAUFLAND",
+        "name": "Kaufland Timisoara Gh. Lazăr",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Kaufland.png"
+        }
+      },
+      "name": "Kaufland Timisoara Gh. Lazăr",
+      "Type": { "id": "1", "name": "Hypermarket" },
+      "addr": {
+        "addrstring": "Str. Gheorghe Lazăr, nr. 26",
+        "zipcode": "300081",
+        "location": { "Lat": 45.760771, "Lon": 21.220211 },
+        "wkt": "POINT(21.220211 45.760771)",
+        "uatid": "155243"
+      },
+      "distance": 0.34,
+      "lastupdate": "01.02.2023 09:17",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Kaufland.png"
+      },
+      "Products": [
+        {
+          "storeid": "1366",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "KAUFLAND"
+        }
+      ]
+    },
+    {
+      "id": "6319",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA GHEORGHE LAZAR 40",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA GHEORGHE LAZAR 40",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Strada Gheorghe Lazar 40, Timisoara",
+        "location": { "Lat": 45.76137895, "Lon": 21.21545233 },
+        "wkt": "POINT(21.21545233 45.76137895)",
+        "uatid": "155243",
+        "contactdetails": "3194@magazin.profi.ro"
+      },
+      "distance": 0.48,
+      "lastupdate": "03.02.2023 07:40",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "6319",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "8062",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "Timisoara Calea Aradului 18",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Calea Aradului, nr. 18",
+        "location": { "Lat": 45.7663, "Lon": 21.2255 },
+        "wkt": "POINT(21.2255 45.7663)",
+        "uatid": "155243",
+        "contactdetails": "3647@magazin.profi.ro"
+      },
+      "distance": 0.48,
+      "lastupdate": "03.02.2023 08:42",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "8062",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "3191",
+      "retailnetwork": {
+        "id": "4055329000008",
+        "name": "Timisoara/Miresei",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Lidl.png"
+        }
+      },
+      "name": "Timisoara/Miresei",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Str. Miresei, nr. 1",
+        "zipcode": "300642",
+        "location": { "Lat": 45.768333, "Lon": 21.221333 },
+        "wkt": "POINT(21.221333 45.768333)",
+        "uatid": "155243",
+        "contactdetails": "0800 896 622"
+      },
+      "distance": 0.51,
+      "workhours": "Program lucru Luni - Sâmbătă: 07:30 - 21:00\nProgram lucru Duminică: 08:00 - 19:00\n",
+      "lastupdate": "02.02.2023 01:59",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Lidl.png"
+      },
+      "Products": [
+        {
+          "storeid": "3191",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "4055329000008"
+        }
+      ]
+    },
+    {
+      "id": "1646",
+      "retailnetwork": {
+        "id": "PENNY",
+        "name": "Calea Circumvalatiunii, 35",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Penny.png"
+        }
+      },
+      "name": "Calea Circumvalatiunii, 35",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Str. Circumvalutiunii, Nr. 35",
+        "zipcode": "300290",
+        "location": { "Lat": 45.75989, "Lon": 21.216942 },
+        "wkt": "POINT(21.216942 45.75989)",
+        "uatid": "155243"
+      },
+      "distance": 0.52,
+      "workhours": "L-S: 7:30 - 21:00; D: 8:00 - 20:00\n",
+      "lastupdate": "03.02.2023 08:19",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Penny.png"
+      },
+      "Products": [
+        {
+          "storeid": "1646",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PENNY"
+        }
+      ]
+    },
+    {
+      "id": "7280",
+      "retailnetwork": {
+        "id": "SUPECO",
+        "name": "SUPECO",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/50fb3ee3-bf13-4a83-8dd1-35a1949a89e4_SUPECO%20150.png"
+        }
+      },
+      "name": "Supeco Timisoara",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Str. Circumvalatiunii nr35, Timisoara",
+        "zipcode": "300254",
+        "location": { "Lat": 45.75963874, "Lon": 21.21672848 },
+        "wkt": "POINT(21.21672848 45.75963874)",
+        "uatid": "155243",
+        "contactdetails": "0751 257 379"
+      },
+      "distance": 0.55,
+      "workhours": "L-S: 07:30-21:00 D: 08:00-18:00",
+      "lastupdate": "03.02.2023 11:39",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/SUPECO.png"
+      },
+      "Products": [
+        {
+          "storeid": "7280",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "SUPECO"
+        }
+      ]
+    },
+    {
+      "id": "5417",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA CETATII",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA CETATII",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Blv. Cetatii nr 79",
+        "location": { "Lat": 45.76802484, "Lon": 21.21637255 },
+        "wkt": "POINT(21.21637255 45.76802484)",
+        "uatid": "155243",
+        "contactdetails": "2283@magazin.profi.ro"
+      },
+      "distance": 0.57,
+      "lastupdate": "03.02.2023 06:36",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5417",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "6477",
+      "retailnetwork": {
+        "id": "5940475870003",
+        "name": "MI GHEORGHE LAZAR TM",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+        }
+      },
+      "name": "MI GHEORGHE LAZAR TM",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "GHEORGHE LAZAR NR. 33",
+        "zipcode": "300386",
+        "location": { "Lat": 45.762547, "Lon": 21.212233 },
+        "wkt": "POINT(21.212233 45.762547)",
+        "uatid": "155243"
+      },
+      "distance": 0.66,
+      "lastupdate": "03.02.2023 15:11",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+      },
+      "Products": [
+        {
+          "storeid": "6477",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475870003"
+        }
+      ]
+    },
+    {
+      "id": "2547",
+      "retailnetwork": {
+        "id": "AUCHAN",
+        "name": "AUCHAN TIMISOARA",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Auchan.png"
+        }
+      },
+      "name": "AUCHAN TIMISOARA",
+      "Type": { "id": "1", "name": "Hypermarket" },
+      "addr": {
+        "addrstring": "Str Demetriade nr. 1",
+        "zipcode": "300088",
+        "location": { "Lat": 45.766715, "Lon": 21.228517 },
+        "wkt": "POINT(21.228517 45.766715)",
+        "uatid": "155243",
+        "contactdetails": "contacttm@auchan.ro "
+      },
+      "distance": 0.7,
+      "workhours": "8:00 - 22:00",
+      "lastupdate": "03.02.2023 16:04",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Auchan.png"
+      },
+      "Products": [
+        {
+          "storeid": "2547",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "AUCHAN"
+        }
+      ]
+    },
+    {
+      "id": "5576",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA MARASTI",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA MARASTI",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Intrarea Doinei nr 19-21",
+        "location": { "Lat": 45.75982126, "Lon": 21.22805357 },
+        "wkt": "POINT(21.22805357 45.75982126)",
+        "uatid": "155243",
+        "contactdetails": "2445@magazin.profi.ro"
+      },
+      "distance": 0.73,
+      "lastupdate": "03.02.2023 06:49",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5576",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5404",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA GH LAZAR",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA GH LAZAR",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Str Gh Lazar nr 33",
+        "location": { "Lat": 45.76258569, "Lon": 21.21131927 },
+        "wkt": "POINT(21.21131927 45.76258569)",
+        "uatid": "155243",
+        "contactdetails": "2270@magazin.profi.ro"
+      },
+      "distance": 0.73,
+      "lastupdate": "03.02.2023 06:35",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5404",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5600",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA HOTINULUI",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA HOTINULUI",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Aleea Hotinului nr 2,Parter,Sad 1",
+        "location": { "Lat": 45.77043655, "Lon": 21.21848613 },
+        "wkt": "POINT(21.21848613 45.77043655)",
+        "uatid": "155243",
+        "contactdetails": "2470@magazin.profi.ro"
+      },
+      "distance": 0.76,
+      "lastupdate": "03.02.2023 06:50",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5600",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "6408",
+      "retailnetwork": {
+        "id": "5940475870003",
+        "name": "MI PIATA 700 TM",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+        }
+      },
+      "name": "MI PIATA 700 TM",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "CORIOLAN BREDICEANU NR. 10/A,",
+        "zipcode": "300011",
+        "location": { "Lat": 45.75694, "Lon": 21.222038 },
+        "wkt": "POINT(21.222038 45.75694)",
+        "uatid": "155243"
+      },
+      "distance": 0.77,
+      "lastupdate": "03.02.2023 15:11",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+      },
+      "Products": [
+        {
+          "storeid": "6408",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475870003"
+        }
+      ]
+    },
+    {
+      "id": "806",
+      "retailnetwork": {
+        "id": "5940475006709",
+        "name": "MARKET TIMISOARA PIATA 700",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Carrefour.png"
+        }
+      },
+      "name": "MARKET TIMISOARA PIATA 700",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Str. Coriolan Brediceanu, nr.6 A",
+        "zipcode": "300077",
+        "location": { "Lat": 45.756383, "Lon": 21.222808 },
+        "wkt": "POINT(21.222808 45.756383)",
+        "uatid": "155243"
+      },
+      "distance": 0.84,
+      "lastupdate": "03.02.2023 11:41",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/CarrefourMarket.png"
+      },
+      "Products": [
+        {
+          "storeid": "806",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475006709"
+        }
+      ]
+    },
+    {
+      "id": "5992",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA(FAVORIT)",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA(FAVORIT)",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Calea Bogdanestilor nr.2",
+        "location": { "Lat": 45.75704187, "Lon": 21.21503222 },
+        "wkt": "POINT(21.21503222 45.75704187)",
+        "uatid": "155243",
+        "contactdetails": "2866@magazin.profi.ro"
+      },
+      "distance": 0.86,
+      "lastupdate": "03.02.2023 07:18",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5992",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "7484",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "Timisoara Gh. Lazar 5",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Str. Gh. Lazar, nr.5, ap.2( SAD)",
+        "location": { "Lat": 45.7576, "Lon": 21.2271 },
+        "wkt": "POINT(21.2271 45.7576)",
+        "uatid": "155243",
+        "contactdetails": "3418@magazin.profi.ro"
+      },
+      "distance": 0.86,
+      "lastupdate": "03.02.2023 07:59",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "7484",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "6249",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA- IOAN PLAVOSIN",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA- IOAN PLAVOSIN",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "str. Ioan Plavosin nr.8 -Horia nr18",
+        "location": { "Lat": 45.76293129, "Lon": 21.20771885 },
+        "wkt": "POINT(21.20771885 45.76293129)",
+        "uatid": "155243",
+        "contactdetails": "3124@magazin.profi.ro"
+      },
+      "distance": 1,
+      "lastupdate": "03.02.2023 07:35",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "6249",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "7602",
+      "retailnetwork": {
+        "id": "5940475006709",
+        "name": "CARREFOUR",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Carrefour.png"
+        }
+      },
+      "name": "Express Timisoara Torontalului",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Calea Torontalului nr 53",
+        "zipcode": "300668",
+        "location": { "Lat": 45.772275, "Lon": 21.216461 },
+        "wkt": "POINT(21.216461 45.772275)",
+        "uatid": "155243"
+      },
+      "distance": 1,
+      "lastupdate": "03.02.2023 11:34",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Carrefour.png"
+      },
+      "Products": [
+        {
+          "storeid": "7602",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475006709"
+        }
+      ]
+    },
+    {
+      "id": "7025",
+      "retailnetwork": {
+        "id": "4055329000008",
+        "name": "Timişoara 8",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Lidl.png"
+        }
+      },
+      "name": "Timişoara 8",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Calea Circumvalatiunii, nr. 4 ",
+        "zipcode": "300337",
+        "location": { "Lat": 45.754066, "Lon": 21.216325 },
+        "wkt": "POINT(21.216325 45.754066)",
+        "uatid": "155243",
+        "contactdetails": "0800 896 622"
+      },
+      "distance": 1.13,
+      "workhours": "Program lucru Luni - Sâmbătă: 07:30 - 21:00\nProgram lucru Duminică: 08:00 - 19:00\n",
+      "lastupdate": "02.02.2023 01:59",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Lidl.png"
+      },
+      "Products": [
+        {
+          "storeid": "7025",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "4055329000008"
+        }
+      ]
+    },
+    {
+      "id": "5795",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA(LUCACIU)",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA(LUCACIU)",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Str Vasile Lucaciu nr 10",
+        "location": { "Lat": 45.76175614, "Lon": 21.23497367 },
+        "wkt": "POINT(21.23497367 45.76175614)",
+        "uatid": "155243",
+        "contactdetails": "2668@magazin.profi.ro"
+      },
+      "distance": 1.14,
+      "lastupdate": "03.02.2023 07:05",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5795",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "7817",
+      "retailnetwork": {
+        "id": "5940475006709",
+        "name": "CARREFOUR",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Carrefour.png"
+        }
+      },
+      "name": "Super Timisoara Bucovinei",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Timisoara, str. Bucovinei nr. 47",
+        "zipcode": "300363",
+        "location": { "Lat": 45.7705451, "Lon": 21.2094917 },
+        "wkt": "POINT(21.2094917 45.7705451)",
+        "uatid": "155243"
+      },
+      "distance": 1.14,
+      "lastupdate": "03.02.2023 11:58",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Carrefour.png"
+      },
+      "Products": [
+        {
+          "storeid": "7817",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475006709"
+        }
+      ]
+    },
+    {
+      "id": "6008",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA (DOMASNEANU)",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA (DOMASNEANU)",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Martir P. Domasneanu, nr.70",
+        "location": { "Lat": 45.76046964, "Lon": 21.20651125 },
+        "wkt": "POINT(21.20651125 45.76046964)",
+        "uatid": "155243",
+        "contactdetails": "2883@magazin.profi.ro"
+      },
+      "distance": 1.15,
+      "lastupdate": "03.02.2023 07:19",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "6008",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5929",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA (MUNTENIEI)",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA (MUNTENIEI)",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "str. Munteniei, nr.11, jud. Timis",
+        "location": { "Lat": 45.76749491, "Lon": 21.20657183 },
+        "wkt": "POINT(21.20657183 45.76749491)",
+        "uatid": "155243",
+        "contactdetails": "2803@magazin.profi.ro"
+      },
+      "distance": 1.16,
+      "lastupdate": "03.02.2023 07:13",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5929",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "6293",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA LIEGE 1/A",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA LIEGE 1/A",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Str. Liege, nr. 1/A",
+        "location": { "Lat": 45.77448255, "Lon": 21.22096617 },
+        "wkt": "POINT(21.22096617 45.77448255)",
+        "uatid": "155243",
+        "contactdetails": "3168@magazin.profi.ro"
+      },
+      "distance": 1.19,
+      "lastupdate": "03.02.2023 07:38",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "6293",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "803",
+      "retailnetwork": {
+        "id": "5940475006709",
+        "name": "MARKET TIMISOARA",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Carrefour.png"
+        }
+      },
+      "name": "MARKET TIMISOARA",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Str Carol Telbisz, nr 3",
+        "zipcode": "300001",
+        "location": { "Lat": 45.755592, "Lon": 21.2308 },
+        "wkt": "POINT(21.2308 45.755592)",
+        "uatid": "155243"
+      },
+      "distance": 1.21,
+      "lastupdate": "03.02.2023 11:41",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/CarrefourMarket.png"
+      },
+      "Products": [
+        {
+          "storeid": "803",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475006709"
+        }
+      ]
+    },
+    {
+      "id": "6110",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA CALEA ARADULUI",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA CALEA ARADULUI",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Calea Aradului nr 46C, jud. Timis",
+        "location": { "Lat": 45.7748286, "Lon": 21.22169269 },
+        "wkt": "POINT(21.22169269 45.7748286)",
+        "uatid": "155243",
+        "contactdetails": "2985@magazin.profi.ro"
+      },
+      "distance": 1.23,
+      "lastupdate": "03.02.2023 07:26",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "6110",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5821",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA(ARADULUI)",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA(ARADULUI)",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Calea Aradului bl 32",
+        "location": { "Lat": 45.77482577, "Lon": 21.22152782 },
+        "wkt": "POINT(21.22152782 45.77482577)",
+        "uatid": "155243",
+        "contactdetails": "2694@magazin.profi.ro"
+      },
+      "distance": 1.23,
+      "lastupdate": "03.02.2023 07:06",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5821",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5849",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA(PUNCTE CARDINALE)",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA(PUNCTE CARDINALE)",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Str Take Ionescu nr 2",
+        "location": { "Lat": 45.75792748, "Lon": 21.23424411 },
+        "wkt": "POINT(21.23424411 45.75792748)",
+        "uatid": "155243",
+        "contactdetails": "2723@magazin.profi.ro"
+      },
+      "distance": 1.25,
+      "lastupdate": "03.02.2023 07:09",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5849",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5450",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA REVOLUTIEI",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA REVOLUTIEI",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Bv Revolutiei nr 7",
+        "location": { "Lat": 45.75584985, "Lon": 21.23351589 },
+        "wkt": "POINT(21.23351589 45.75584985)",
+        "uatid": "155243",
+        "contactdetails": "2318@magazin.profi.ro"
+      },
+      "distance": 1.34,
+      "lastupdate": "03.02.2023 06:38",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5450",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5259",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA LIPOVEI",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA LIPOVEI",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Calea Sever Bocu Nr 31",
+        "location": { "Lat": 45.77352106, "Lon": 21.2315914 },
+        "wkt": "POINT(21.2315914 45.77352106)",
+        "uatid": "155243",
+        "contactdetails": "2118@magazin.profi.ro"
+      },
+      "distance": 1.38,
+      "lastupdate": "03.02.2023 06:24",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5259",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5536",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA CUGIR",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA CUGIR",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Str.Cugir nr 18,bl 78",
+        "location": { "Lat": 45.77585782, "Lon": 21.21662602 },
+        "wkt": "POINT(21.21662602 45.77585782)",
+        "uatid": "155243",
+        "contactdetails": "2404@magazin.profi.ro"
+      },
+      "distance": 1.38,
+      "lastupdate": "03.02.2023 06:45",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5536",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "6121",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA -CLOSCA",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA -CLOSCA",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Str Closca nr 42, jud. Timis",
+        "location": { "Lat": 45.76527605, "Lon": 21.20272954 },
+        "wkt": "POINT(21.20272954 45.76527605)",
+        "uatid": "155243",
+        "contactdetails": "2996@magazin.profi.ro"
+      },
+      "distance": 1.4,
+      "lastupdate": "23.01.2020 07:04",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "6121",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "1624",
+      "retailnetwork": {
+        "id": "PENNY",
+        "name": "Str. Calea Aradului, 48",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Penny.png"
+        }
+      },
+      "name": "Str. Calea Aradului, 48",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Calea Aradului, Nr. 48",
+        "zipcode": "300290",
+        "location": { "Lat": 45.777093, "Lon": 21.221496 },
+        "wkt": "POINT(21.221496 45.777093)",
+        "uatid": "155243"
+      },
+      "distance": 1.48,
+      "workhours": "L-S: 7:30 - 21:00; D: 8:00 - 20:00\n",
+      "lastupdate": "03.02.2023 08:05",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Penny.png"
+      },
+      "Products": [
+        {
+          "storeid": "1624",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PENNY"
+        }
+      ]
+    },
+    {
+      "id": "7002",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "Timisoara Vlad Banateanu 1a",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Str. Vlad Banateanu nr.1A, scara B",
+        "location": { "Lat": 45.776, "Lon": 21.2126 },
+        "wkt": "POINT(21.2126 45.776)",
+        "uatid": "155243",
+        "contactdetails": "3298@magazin.profi.ro"
+      },
+      "distance": 1.49,
+      "lastupdate": "03.02.2023 07:49",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "7002",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5483",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA POMICULTURII",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA POMICULTURII",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Str .Pomiculturii nr 23",
+        "location": { "Lat": 45.77144077, "Lon": 21.23648107 },
+        "wkt": "POINT(21.23648107 45.77144077)",
+        "uatid": "155243",
+        "contactdetails": "2351@magazin.profi.ro"
+      },
+      "distance": 1.5,
+      "lastupdate": "03.02.2023 06:41",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5483",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "2443",
+      "retailnetwork": {
+        "id": "5940475870003",
+        "name": "SG I.I. BRAD B30",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+        }
+      },
+      "name": "SG I.I. BRAD B30",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "ION IONESCU DE LA BRAD, BL B30 SC A",
+        "zipcode": "300245",
+        "location": { "Lat": 45.77136111, "Lon": 21.23672222 },
+        "wkt": "POINT(21.23672222 45.77136111)",
+        "uatid": "155243"
+      },
+      "distance": 1.51,
+      "lastupdate": "03.02.2023 15:11",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+      },
+      "Products": [
+        {
+          "storeid": "2443",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475870003"
+        }
+      ]
+    },
+    {
+      "id": "3614",
+      "retailnetwork": {
+        "id": "5940475870003",
+        "name": "MI CALEA ARADULUI TM",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+        }
+      },
+      "name": "MI CALEA ARADULUI TM",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "CALEA ARADULUI, BL.141, PARTER",
+        "zipcode": "300644",
+        "location": { "Lat": 45.778167, "Lon": 21.220194 },
+        "wkt": "POINT(21.220194 45.778167)",
+        "uatid": "155243"
+      },
+      "distance": 1.6,
+      "lastupdate": "03.02.2023 15:11",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+      },
+      "Products": [
+        {
+          "storeid": "3614",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475870003"
+        }
+      ]
+    },
+    {
+      "id": "5644",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA TAKE IONESCU",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA TAKE IONESCU",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Str Take Ionescu nr 51",
+        "location": { "Lat": 45.76087516, "Lon": 21.24074453 },
+        "wkt": "POINT(21.24074453 45.76087516)",
+        "uatid": "155243",
+        "contactdetails": "2514@magazin.profi.ro"
+      },
+      "distance": 1.6,
+      "lastupdate": "03.02.2023 06:54",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5644",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "2439",
+      "retailnetwork": {
+        "id": "5940475870003",
+        "name": "SG REPUBLICII 21",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+        }
+      },
+      "name": "SG REPUBLICII 21",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "BD-UL REPUBLICII, NR.21, P",
+        "zipcode": "300158",
+        "location": { "Lat": 45.74997222, "Lon": 21.21391667 },
+        "wkt": "POINT(21.21391667 45.74997222)",
+        "uatid": "155243"
+      },
+      "distance": 1.62,
+      "lastupdate": "03.02.2023 15:11",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/MegaImage.png"
+      },
+      "Products": [
+        {
+          "storeid": "2439",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475870003"
+        }
+      ]
+    },
+    {
+      "id": "5696",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA(MARIA)",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA(MARIA)",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Str.16 Decembrie 1989,nr 8",
+        "location": { "Lat": 45.74845014, "Lon": 21.21826619 },
+        "wkt": "POINT(21.21826619 45.74845014)",
+        "uatid": "155243",
+        "contactdetails": "2568@magazin.profi.ro"
+      },
+      "distance": 1.71,
+      "lastupdate": "03.02.2023 06:59",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5696",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "6104",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA-(BOCU 41)",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA-(BOCU 41)",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Calea Sever Bocu nr 41, Jud Timis",
+        "location": { "Lat": 45.77656981, "Lon": 21.23297589 },
+        "wkt": "POINT(21.23297589 45.77656981)",
+        "uatid": "155243",
+        "contactdetails": "2979@magazin.profi.ro"
+      },
+      "distance": 1.72,
+      "lastupdate": "03.02.2023 07:26",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "6104",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "6129",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA REPUBLICII 27-29",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA REPUBLICII 27-29",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Bdul Republicii nr 27-29, Timisoara",
+        "location": { "Lat": 45.7502554, "Lon": 21.20908975 },
+        "wkt": "POINT(21.20908975 45.7502554)",
+        "uatid": "155243",
+        "contactdetails": "3004@magazin.profi.ro"
+      },
+      "distance": 1.75,
+      "lastupdate": "14.11.2021 09:13",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "6129",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5689",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI  TIMISOARA (GARA)",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI  TIMISOARA (GARA)",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "str. Garii, nr. 2",
+        "location": { "Lat": 45.75068113, "Lon": 21.20778143 },
+        "wkt": "POINT(21.20778143 45.75068113)",
+        "uatid": "155243",
+        "contactdetails": "2560@magazin.profi.ro"
+      },
+      "distance": 1.76,
+      "lastupdate": "03.02.2023 06:58",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5689",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "5664",
+      "retailnetwork": {
+        "id": "PROFI",
+        "name": "PROFI TIMISOARA MASLINULUI",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+        }
+      },
+      "name": "PROFI TIMISOARA MASLINULUI",
+      "Type": { "id": "2", "name": "Supermarket" },
+      "addr": {
+        "addrstring": "Str.Maslinului nr 11",
+        "location": { "Lat": 45.75466483, "Lon": 21.20092303 },
+        "wkt": "POINT(21.20092303 45.75466483)",
+        "uatid": "155243",
+        "contactdetails": "2534@magazin.profi.ro"
+      },
+      "distance": 1.83,
+      "lastupdate": "03.02.2023 06:55",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Profi.png"
+      },
+      "Products": [
+        {
+          "storeid": "5664",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "PROFI"
+        }
+      ]
+    },
+    {
+      "id": "8790",
+      "retailnetwork": {
+        "id": "5940475006709",
+        "name": "CARREFOUR",
+        "Logo": {
+          "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Carrefour.png"
+        }
+      },
+      "name": "Express Timisoara Protopop",
+      "Type": { "id": "3", "name": "Supermarket & Discounter" },
+      "addr": {
+        "addrstring": "Bdul Take Ionescu 46B",
+        "zipcode": "300043",
+        "location": { "Lat": 45.759039, "Lon": 21.243086 },
+        "wkt": "POINT(21.243086 45.759039)",
+        "uatid": "155243"
+      },
+      "distance": 1.83,
+      "lastupdate": "03.02.2023 11:59",
+      "logo": {
+        "logouri": "http://monitorulpreturilor.info/MonitorulPreturilor/Images/Carrefour.png"
+      },
+      "Products": [
+        {
+          "storeid": "8790",
+          "catprod": {
+            "id": "1021513",
+            "name": "ACHAVAL FERRER MALBEC 0.75L",
+            "prodcateg": { "id": "105", "name": "VIN", "logo": {} }
+          },
+          "networkid": "5940475006709"
+        }
+      ]
+    }
+  ],
+  "area": {
+    "Points": [
+      { "Lat": 45.764638991438225, "Lon": 21.246230131369028 },
+      { "Lat": 45.764074142907994, "Lon": 21.246255428919046 },
+      { "Lat": 45.763509016902368, "Lon": 21.246255363847293 },
+      { "Lat": 45.762944171144333, "Lon": 21.246229936987923 },
+      { "Lat": 45.762380163063625, "Lon": 21.246179174203597 },
+      { "Lat": 45.761817549246466, "Lon": 21.24610312635696 },
+      { "Lat": 45.761256884886329, "Lon": 21.246001869257398 },
+      { "Lat": 45.760698723236324, "Lon": 21.245875503583225 },
+      { "Lat": 45.760143615063335, "Lon": 21.245724154779413 },
+      { "Lat": 45.759592108104762, "Lon": 21.245547972930844 },
+      { "Lat": 45.759044746528367, "Lon": 21.245347132611336 },
+      { "Lat": 45.758502070395529, "Lon": 21.245121832708634 },
+      { "Lat": 45.757964615128856, "Lon": 21.244872296225402 },
+      { "Lat": 45.757432910984292, "Lon": 21.244598770056552 },
+      { "Lat": 45.756907482528483, "Lon": 21.244301524743111 },
+      { "Lat": 45.756388848121475, "Lon": 21.243980854202842 },
+      { "Lat": 45.755877519406077, "Lon": 21.243637075437931 },
+      { "Lat": 45.755374000803648, "Lon": 21.243270528220027 },
+      { "Lat": 45.754878789016956, "Lon": 21.242881574752897 },
+      { "Lat": 45.754392372540927, "Lon": 21.242470599313219 },
+      { "Lat": 45.753915231181367, "Lon": 21.2420380078696 },
+      { "Lat": 45.753447835582413, "Lon": 21.241584227680466 },
+      { "Lat": 45.752990646762882, "Lon": 21.241109706871026 },
+      { "Lat": 45.752544115662381, "Lon": 21.240614913989848 },
+      { "Lat": 45.752108682697319, "Lon": 21.240100337545506 },
+      { "Lat": 45.751684777327057, "Lon": 21.239566485523611 },
+      { "Lat": 45.751272817631346, "Lon": 21.239013884884887 },
+      { "Lat": 45.750873209898593, "Lon": 21.238443081044675 },
+      { "Lat": 45.750486348226076, "Lon": 21.237854637334426 },
+      { "Lat": 45.750112614132114, "Lon": 21.237249134445694 },
+      { "Lat": 45.749752376180361, "Lon": 21.236627169857165 },
+      { "Lat": 45.749405989617337, "Lon": 21.235989357245394 },
+      { "Lat": 45.749073796023, "Lon": 21.235336325879612 },
+      { "Lat": 45.748756122974321, "Lon": 21.234668720001476 },
+      { "Lat": 45.748453283723315, "Lon": 21.233987198190071 },
+      { "Lat": 45.7481655768888, "Lon": 21.233292432713132 },
+      { "Lat": 45.747893286162721, "Lon": 21.232585108864729 },
+      { "Lat": 45.747636680030972, "Lon": 21.231865924290439 },
+      { "Lat": 45.747396011509544, "Lon": 21.231135588300386 },
+      { "Lat": 45.747171517895595, "Lon": 21.230394821170989 },
+      { "Lat": 45.746963420534122, "Lon": 21.229644353435997 },
+      { "Lat": 45.746771924600374, "Lon": 21.228884925167574 },
+      { "Lat": 45.746597218898032, "Lon": 21.228117285248118 },
+      { "Lat": 45.746439475673704, "Lon": 21.227342190633468 },
+      { "Lat": 45.746298850447417, "Lon": 21.226560405608311 },
+      { "Lat": 45.746175481860107, "Lon": 21.225772701034479 },
+      { "Lat": 45.74606949153673, "Lon": 21.224979853592753 },
+      { "Lat": 45.745980983967428, "Lon": 21.224182645019152 },
+      { "Lat": 45.745910046404376, "Lon": 21.223381861336211 },
+      { "Lat": 45.74585674877617, "Lon": 21.222578292080168 },
+      { "Lat": 45.7458211436191, "Lon": 21.221772729524666 },
+      { "Lat": 45.745803266025632, "Lon": 21.220965967901854 },
+      { "Lat": 45.745803133609918, "Lon": 21.220158802621587 },
+      { "Lat": 45.745820746490431, "Lon": 21.219352029489478 },
+      { "Lat": 45.745856087290086, "Lon": 21.21854644392452 },
+      { "Lat": 45.745909121153176, "Lon": 21.217742840177202 },
+      { "Lat": 45.745979795779782, "Lon": 21.216942010548632 },
+      { "Lat": 45.746068041477258, "Lon": 21.216144744611654 },
+      { "Lat": 45.746173771228733, "Lon": 21.215351828434589 },
+      { "Lat": 45.746296880778793, "Lon": 21.21456404380838 },
+      { "Lat": 45.746437248735809, "Lon": 21.213782167477891 },
+      { "Lat": 45.746594736691655, "Lon": 21.213006970378146 },
+      { "Lat": 45.746769189357657, "Lon": 21.2122392168762 },
+      { "Lat": 45.746960434717259, "Lon": 21.211479664019375 },
+      { "Lat": 45.747168284195247, "Lon": 21.210729060790655 },
+      { "Lat": 45.747392532843371, "Lon": 21.209988147371927 },
+      { "Lat": 45.74763295954174, "Lon": 21.209257654415747 },
+      { "Lat": 45.747889327216285, "Lon": 21.208538302326406 },
+      { "Lat": 45.7481613830721, "Lon": 21.207830800550973 },
+      { "Lat": 45.748448858841968, "Lon": 21.207135846881 },
+      { "Lat": 45.748751471050312, "Lon": 21.20645412676555 },
+      { "Lat": 45.749068921292078, "Lon": 21.205786312636306 },
+      { "Lat": 45.749400896526133, "Lon": 21.205133063245277 },
+      { "Lat": 45.749747069383389, "Lon": 21.204495023015895 },
+      { "Lat": 45.750107098488819, "Lon": 21.203872821408051 },
+      { "Lat": 45.750480628797519, "Lon": 21.203267072297734 },
+      { "Lat": 45.7508672919437, "Lon": 21.202678373371818 },
+      { "Lat": 45.751266706603566, "Lon": 21.202107305538682 },
+      { "Lat": 45.751678478870389, "Lon": 21.201554432355223 },
+      { "Lat": 45.752102202642114, "Lon": 21.201020299470706 },
+      { "Lat": 45.752537460021358, "Lon": 21.200505434088225 },
+      { "Lat": 45.752983821726545, "Lon": 21.200010344444056 },
+      { "Lat": 45.753440847514476, "Lon": 21.199535519305606 },
+      { "Lat": 45.753908086613933, "Lon": 21.1990814274884 },
+      { "Lat": 45.754385078169477, "Lon": 21.198648517392542 },
+      { "Lat": 45.7548713516952, "Lon": 21.198237216559143 },
+      { "Lat": 45.755366427537986, "Lon": 21.197847931247139 },
+      { "Lat": 45.7558698173502, "Lon": 21.197481046031047 },
+      { "Lat": 45.756381024570338, "Lon": 21.197136923419766 },
+      { "Lat": 45.756899544912521, "Lon": 21.196815903497225 },
+      { "Lat": 45.757424866863133, "Lon": 21.196518303584753 },
+      { "Lat": 45.757956472184866, "Lon": 21.196244417925996 },
+      { "Lat": 45.758493836427448, "Lon": 21.19599451739435 },
+      { "Lat": 45.759036429444372, "Lon": 21.195768849223324 },
+      { "Lat": 45.759583715915639, "Lon": 21.195567636760167 },
+      { "Lat": 45.760135155875169, "Lon": 21.19539107924291 },
+      { "Lat": 45.760690205243442, "Lon": 21.195239351601135 },
+      { "Lat": 45.761248316363627, "Lon": 21.195112604280624 },
+      { "Lat": 45.761808938541854, "Lon": 21.195010963092066 },
+      { "Lat": 45.762371518590236, "Lon": 21.194934529084076 },
+      { "Lat": 45.762935501372453, "Lon": 21.194883378440498 },
+      { "Lat": 45.763500330351413, "Lon": 21.194857562402298 },
+      { "Lat": 45.764065448138311, "Lon": 21.194857107213959 },
+      { "Lat": 45.764630297042395, "Lon": 21.194882014094574 },
+      { "Lat": 45.765194319621656, "Lon": 21.194932259233592 },
+      { "Lat": 45.765756959232618, "Lon": 21.195007793811296 },
+      { "Lat": 45.76631766058005, "Lon": 21.195108544043915 },
+      { "Lat": 45.766875870264748, "Lon": 21.195234411253505 },
+      { "Lat": 45.767431037330404, "Lon": 21.195385271962326 },
+      { "Lat": 45.767982613807106, "Lon": 21.195560978011766 },
+      { "Lat": 45.768530055252846, "Lon": 21.195761356705766 },
+      { "Lat": 45.769072821290933, "Lon": 21.195986210978425 },
+      { "Lat": 45.769610376143916, "Lon": 21.19623531958576 },
+      { "Lat": 45.770142189162875, "Lon": 21.196508437321491 },
+      { "Lat": 45.770667735351566, "Lon": 21.196805295256492 },
+      { "Lat": 45.77118649588521, "Lon": 21.197125601001805 },
+      { "Lat": 45.771697958623236, "Lon": 21.197469038994928 },
+      { "Lat": 45.772201618615355, "Lon": 21.197835270809083 },
+      { "Lat": 45.772696978600884, "Lon": 21.198223935485245 },
+      { "Lat": 45.7731835494999, "Lon": 21.198634649886472 },
+      { "Lat": 45.773660850897279, "Lon": 21.199067009074358 },
+      { "Lat": 45.774128411517232, "Lon": 21.199520586707084 },
+      { "Lat": 45.774585769689665, "Lon": 21.19999493545884 },
+      { "Lat": 45.775032473806604, "Lon": 21.200489587460083 },
+      { "Lat": 45.775468082768874, "Lon": 21.20100405475824 },
+      { "Lat": 45.775892166422494, "Lon": 21.201537829798454 },
+      { "Lat": 45.776304305984176, "Lon": 21.202090385923793 },
+      { "Lat": 45.776704094455546, "Lon": 21.202661177894605 },
+      { "Lat": 45.777091137026112, "Lon": 21.20324964242629 },
+      { "Lat": 45.777465051463643, "Lon": 21.203855198745106 },
+      { "Lat": 45.77782546849275, "Lon": 21.204477249161513 },
+      { "Lat": 45.778172032160064, "Lon": 21.20511517966024 },
+      { "Lat": 45.77850440018684, "Lon": 21.205768360506784 },
+      { "Lat": 45.778822244307641, "Lon": 21.2064361468696 },
+      { "Lat": 45.779125250595236, "Lon": 21.207117879457272 },
+      { "Lat": 45.7794131197717, "Lon": 21.207812885170256 },
+      { "Lat": 45.779685567504366, "Lon": 21.20852047776636 },
+      { "Lat": 45.77994232468766, "Lon": 21.209239958539388 },
+      { "Lat": 45.780183137709493, "Lon": 21.209970617010264 },
+      { "Lat": 45.780407768702418, "Lon": 21.210711731629889 },
+      { "Lat": 45.780615995779286, "Lon": 21.211462570493115 },
+      { "Lat": 45.780807613252918, "Lon": 21.212222392063108 },
+      { "Lat": 45.780982431839909, "Lon": 21.2129904459053 },
+      { "Lat": 45.7811402788483, "Lon": 21.21376597343027 },
+      { "Lat": 45.78128099834823, "Lon": 21.214548208644825 },
+      { "Lat": 45.781404451327, "Lon": 21.215336378910475 },
+      { "Lat": 45.781510515826341, "Lon": 21.216129705708536 },
+      { "Lat": 45.781599087063491, "Lon": 21.2169274054112 },
+      { "Lat": 45.781670077535033, "Lon": 21.217728690057665 },
+      { "Lat": 45.781723417103571, "Lon": 21.218532768134619 },
+      { "Lat": 45.781759053067205, "Lon": 21.219338845360344 },
+      { "Lat": 45.781776950211935, "Lon": 21.220146125471505 },
+      { "Lat": 45.781777090846461, "Lon": 21.220953811012013 },
+      { "Lat": 45.781759474819815, "Lon": 21.221761104123036 },
+      { "Lat": 45.781724119521613, "Lon": 21.222567207333444 },
+      { "Lat": 45.781671059864706, "Lon": 21.223371324349863 },
+      { "Lat": 45.781600348250848, "Lon": 21.224172660845515 },
+      { "Lat": 45.781512054518586, "Lon": 21.2249704252472 },
+      { "Lat": 45.781406265874438, "Lon": 21.22576382951938 },
+      { "Lat": 45.781283086806219, "Lon": 21.226552089944835 },
+      { "Lat": 45.78114263897988, "Lon": 21.22733442790091 },
+      { "Lat": 45.780985061118756, "Lon": 21.228110070630773 },
+      { "Lat": 45.780810508866388, "Lon": 21.228878252008673 },
+      { "Lat": 45.780619154632355, "Lon": 21.229638213298649 },
+      { "Lat": 45.780411187421436, "Lon": 21.230389203905826 },
+      { "Lat": 45.78018681264664, "Lon": 21.2311304821195 },
+      { "Lat": 45.779946251925629, "Lon": 21.231861315847446 },
+      { "Lat": 45.779689742861343, "Lon": 21.232580983340497 },
+      { "Lat": 45.779417538806683, "Lon": 21.233288773906839 },
+      { "Lat": 45.77912990861374, "Lon": 21.233983988615176 },
+      { "Lat": 45.778827136367539, "Lon": 21.234665940986261 },
+      { "Lat": 45.778509521104787, "Lon": 21.235333957671802 },
+      { "Lat": 45.778177376517824, "Lon": 21.2359873791204 },
+      { "Lat": 45.7778310306441, "Lon": 21.236625560229573 },
+      { "Lat": 45.777470825541407, "Lon": 21.237247870983452 },
+      { "Lat": 45.777097116949356, "Lon": 21.237853697075312 },
+      { "Lat": 45.776710273937233, "Lon": 21.238442440514465 },
+      { "Lat": 45.776310678538721, "Lon": 21.239013520216833 },
+      { "Lat": 45.775898725373843, "Lon": 21.239566372578704 },
+      { "Lat": 45.775474821258534, "Lon": 21.240100452032969 },
+      { "Lat": 45.775039384801971, "Lon": 21.240615231587423 },
+      { "Lat": 45.774592845992515, "Lon": 21.241110203344505 },
+      { "Lat": 45.774135645772141, "Lon": 21.241584879002048 },
+      { "Lat": 45.77366823560061, "Lon": 21.242038790334465 },
+      { "Lat": 45.773191077008434, "Lon": 21.242471489653941 },
+      { "Lat": 45.772704641140841, "Lon": 21.242882550251217 },
+      { "Lat": 45.772209408291488, "Lon": 21.243271566815437 },
+      { "Lat": 45.7717058674278, "Lon": 21.243638155832731 },
+      { "Lat": 45.7711945157073, "Lon": 21.243981955963143 },
+      { "Lat": 45.770675857986177, "Lon": 21.244302628395459 },
+      { "Lat": 45.770150406320212, "Lon": 21.244599857179693 },
+      { "Lat": 45.769618679458624, "Lon": 21.244873349536903 },
+      { "Lat": 45.769081202331378, "Lon": 21.24512283614586 },
+      { "Lat": 45.768538505530458, "Lon": 21.245348071406632 },
+      { "Lat": 45.767991124785532, "Lon": 21.245548833680463 },
+      { "Lat": 45.767439600434642, "Lon": 21.245724925506011 },
+      { "Lat": 45.766884476890439, "Lon": 21.245876173791551 },
+      { "Lat": 45.766326302102414, "Lon": 21.246002429983122 },
+      { "Lat": 45.765765627015682, "Lon": 21.246103570208298 },
+      { "Lat": 45.765203005027054, "Lon": 21.246179495395516 },
+      { "Lat": 45.764638991438225, "Lon": 21.246230131369028 },
+      { "Lat": 45.764638991438225, "Lon": 21.246230131369028 }
+    ]
+  },
+  "areawkt": "POLYGON((21.246230131369 45.7646389914382,21.246255428919 45.764074142908,21.2462553638473 45.7635090169024,21.2462299369879 45.7629441711443,21.2461791742036 45.7623801630636,21.246103126357 45.7618175492465,21.2460018692574 45.7612568848863,21.2458755035832 45.7606987232363,21.2457241547794 45.7601436150633,21.2455479729308 45.7595921081048,21.2453471326113 45.7590447465284,21.2451218327086 45.7585020703955,21.2448722962254 45.7579646151289,21.2445987700566 45.7574329109843,21.2443015247431 45.7569074825285,21.2439808542028 45.7563888481215,21.2436370754379 45.7558775194061,21.24327052822 45.7553740008036,21.2428815747529 45.754878789017,21.2424705993132 45.7543923725409,21.2420380078696 45.7539152311814,21.2415842276805 45.7534478355824,21.241109706871 45.7529906467629,21.2406149139898 45.7525441156624,21.2401003375455 45.7521086826973,21.2395664855236 45.7516847773271,21.2390138848849 45.7512728176313,21.2384430810447 45.7508732098986,21.2378546373344 45.7504863482261,21.2372491344457 45.7501126141321,21.2366271698572 45.7497523761804,21.2359893572454 45.7494059896173,21.2353363258796 45.749073796023,21.2346687200015 45.7487561229743,21.2339871981901 45.7484532837233,21.2332924327131 45.7481655768888,21.2325851088647 45.7478932861627,21.2318659242904 45.747636680031,21.2311355883004 45.7473960115095,21.230394821171 45.7471715178956,21.229644353436 45.7469634205341,21.2288849251676 45.7467719246004,21.2281172852481 45.746597218898,21.2273421906335 45.7464394756737,21.2265604056083 45.7462988504474,21.2257727010345 45.7461754818601,21.2249798535928 45.7460694915367,21.2241826450192 45.7459809839674,21.2233818613362 45.7459100464044,21.2225782920802 45.7458567487762,21.2217727295247 45.7458211436191,21.2209659679019 45.7458032660256,21.2201588026216 45.7458031336099,21.2193520294895 45.7458207464904,21.2185464439245 45.7458560872901,21.2177428401772 45.7459091211532,21.2169420105486 45.7459797957798,21.2161447446117 45.7460680414773,21.2153518284346 45.7461737712287,21.2145640438084 45.7462968807788,21.2137821674779 45.7464372487358,21.2130069703781 45.7465947366917,21.2122392168762 45.7467691893577,21.2114796640194 45.7469604347173,21.2107290607907 45.7471682841952,21.2099881473719 45.7473925328434,21.2092576544157 45.7476329595417,21.2085383023264 45.7478893272163,21.207830800551 45.7481613830721,21.207135846881 45.748448858842,21.2064541267655 45.7487514710503,21.2057863126363 45.7490689212921,21.2051330632453 45.7494008965261,21.2044950230159 45.7497470693834,21.2038728214081 45.7501070984888,21.2032670722977 45.7504806287975,21.2026783733718 45.7508672919437,21.2021073055387 45.7512667066036,21.2015544323552 45.7516784788704,21.2010202994707 45.7521022026421,21.2005054340882 45.7525374600214,21.2000103444441 45.7529838217265,21.1995355193056 45.7534408475145,21.1990814274884 45.7539080866139,21.1986485173925 45.7543850781695,21.1982372165591 45.7548713516952,21.1978479312471 45.755366427538,21.197481046031 45.7558698173502,21.1971369234198 45.7563810245703,21.1968159034972 45.7568995449125,21.1965183035848 45.7574248668631,21.196244417926 45.7579564721849,21.1959945173944 45.7584938364274,21.1957688492233 45.7590364294444,21.1955676367602 45.7595837159156,21.1953910792429 45.7601351558752,21.1952393516011 45.7606902052434,21.1951126042806 45.7612483163636,21.1950109630921 45.7618089385419,21.1949345290841 45.7623715185902,21.1948833784405 45.7629355013725,21.1948575624023 45.7635003303514,21.194857107214 45.7640654481383,21.1948820140946 45.7646302970424,21.1949322592336 45.7651943196217,21.1950077938113 45.7657569592326,21.1951085440439 45.7663176605801,21.1952344112535 45.7668758702647,21.1953852719623 45.7674310373304,21.1955609780118 45.7679826138071,21.1957613567058 45.7685300552528,21.1959862109784 45.7690728212909,21.1962353195858 45.7696103761439,21.1965084373215 45.7701421891629,21.1968052952565 45.7706677353516,21.1971256010018 45.7711864958852,21.1974690389949 45.7716979586232,21.1978352708091 45.7722016186154,21.1982239354852 45.7726969786009,21.1986346498865 45.7731835494999,21.1990670090744 45.7736608508973,21.1995205867071 45.7741284115172,21.1999949354588 45.7745857696897,21.2004895874601 45.7750324738066,21.2010040547582 45.7754680827689,21.2015378297985 45.7758921664225,21.2020903859238 45.7763043059842,21.2026611778946 45.7767040944555,21.2032496424263 45.7770911370261,21.2038551987451 45.7774650514636,21.2044772491615 45.7778254684928,21.2051151796602 45.7781720321601,21.2057683605068 45.7785044001868,21.2064361468696 45.7788222443076,21.2071178794573 45.7791252505952,21.2078128851703 45.7794131197717,21.2085204777664 45.7796855675044,21.2092399585394 45.7799423246877,21.2099706170103 45.7801831377095,21.2107117316299 45.7804077687024,21.2114625704931 45.7806159957793,21.2122223920631 45.7808076132529,21.2129904459053 45.7809824318399,21.2137659734303 45.7811402788483,21.2145482086448 45.7812809983482,21.2153363789105 45.781404451327,21.2161297057085 45.7815105158263,21.2169274054112 45.7815990870635,21.2177286900577 45.781670077535,21.2185327681346 45.7817234171036,21.2193388453603 45.7817590530672,21.2201461254715 45.7817769502119,21.220953811012 45.7817770908465,21.221761104123 45.7817594748198,21.2225672073334 45.7817241195216,21.2233713243499 45.7816710598647,21.2241726608455 45.7816003482508,21.2249704252472 45.7815120545186,21.2257638295194 45.7814062658744,21.2265520899448 45.7812830868062,21.2273344279009 45.7811426389799,21.2281100706308 45.7809850611188,21.2288782520087 45.7808105088664,21.2296382132986 45.7806191546324,21.2303892039058 45.7804111874214,21.2311304821195 45.7801868126466,21.2318613158474 45.7799462519256,21.2325809833405 45.7796897428613,21.2332887739068 45.7794175388067,21.2339839886152 45.7791299086137,21.2346659409863 45.7788271363675,21.2353339576718 45.7785095211048,21.2359873791204 45.7781773765178,21.2366255602296 45.7778310306441,21.2372478709835 45.7774708255414,21.2378536970753 45.7770971169494,21.2384424405145 45.7767102739372,21.2390135202168 45.7763106785387,21.2395663725787 45.7758987253738,21.240100452033 45.7754748212585,21.2406152315874 45.775039384802,21.2411102033445 45.7745928459925,21.241584879002 45.7741356457721,21.2420387903345 45.7736682356006,21.2424714896539 45.7731910770084,21.2428825502512 45.7727046411408,21.2432715668154 45.7722094082915,21.2436381558327 45.7717058674278,21.2439819559631 45.7711945157073,21.2443026283955 45.7706758579862,21.2445998571797 45.7701504063202,21.2448733495369 45.7696186794586,21.2451228361459 45.7690812023314,21.2453480714066 45.7685385055305,21.2455488336805 45.7679911247855,21.245724925506 45.7674396004346,21.2458761737916 45.7668844768904,21.2460024299831 45.7663263021024,21.2461035702083 45.7657656270157,21.2461794953955 45.7652030050271,21.246230131369 45.7646389914382,21.246230131369 45.7646389914382))"
+}

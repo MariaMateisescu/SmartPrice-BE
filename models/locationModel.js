@@ -12,7 +12,14 @@ const locationSchema = new mongoose.Schema({
   openingHours: {
     type: String,
   },
-  coordinates: [Number],
+  coordinates: {
+    lat: {
+      type: Number,
+    },
+    lng: {
+      type: Number,
+    },
+  },
   productsList: [{ type: mongoose.Schema.ObjectId, ref: 'Product' }],
 });
 locationSchema.pre(/^find/, function (next) {

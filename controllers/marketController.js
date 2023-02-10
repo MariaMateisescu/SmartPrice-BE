@@ -30,7 +30,7 @@ exports.createMarket = catchAsync(async (req, res, next) => {
   // const newMarket = await Market.create(req.body);
   let newMarket = new Market();
   newMarket.name = req.body.name;
-  newMarket.locations = req.body.locations;
+  newMarket.locations = [];
   newMarket.logo = req.file.location;
 
   newMarket.save();

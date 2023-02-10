@@ -1,4 +1,5 @@
 const Location = require('../models/locationModel');
+const Market = require('../models/marketModel');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 
@@ -29,7 +30,18 @@ exports.getOneLocation = catchAsync(async (req, res, next) => {
 
 exports.createLocation = catchAsync(async (req, res, next) => {
   const newLocation = await Location.create(req.body);
-
+  console.log(req.body.marketId);
+  Market.findOneAndUpdate(
+    { _id: req.body.marketId },
+    { $push: { locations: newLocation._id } },
+    function (error, success) {
+      if (error) {
+        console.log(error);
+      } else {
+        console.log(success);
+      }
+    }
+  );
   res.status(200).json({
     status: 'success',
     data: {

@@ -12,6 +12,6 @@ router
   .route('/:id')
   .get(marketController.getOneMarket)
   .delete(marketController.deleteMarket)
-  .patch(marketController.updateMarket);
+  .patch(upload.single('logo'), marketController.updateMarket);
 
 module.exports = router;

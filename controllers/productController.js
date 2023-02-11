@@ -1,4 +1,5 @@
 const Product = require('../models/productModel');
+const Location = require('../models/locationModel');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 
@@ -17,7 +18,24 @@ exports.getAllProducts = catchAsync(async (req, res, next) => {
 
 exports.createProduct = catchAsync(async (req, res, next) => {
   const newProduct = await Product.create(req.body);
-
+  const records = await Location.find({
+    _id: { $in: req.body.selectedLocations },
+  });
+  console.log(records);
+  console.log(req.body.selectedLocations);
+  records.forEach((loc) => {
+    Location.findOneAndUpdate(
+      { _id: loc._id },
+      { $push: { productsList: newProduct._id } },
+      function (error, success) {
+        if (error) {
+          console.log(error);
+        } else {
+          console.log(success);
+        }
+      }
+    );
+  });
   res.status(200).json({
     status: 'success',
     data: {

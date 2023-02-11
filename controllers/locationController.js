@@ -18,7 +18,6 @@ exports.getAllLocations = catchAsync(async (req, res, next) => {
 
 exports.getOneLocation = catchAsync(async (req, res, next) => {
   const location = await Location.findById(req.params.id);
-  console.log(req);
 
   res.status(200).json({
     status: 'success',

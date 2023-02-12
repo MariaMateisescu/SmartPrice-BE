@@ -60,7 +60,7 @@ exports.updateMarket = catchAsync(async (req, res, next) => {
   const updateData = {};
   if (req.body.name) updateData.name = req.body.name;
   if (req.body.locations) updateData.locations = req.body.locations;
-  if (req.file.location) updateData.logo = req.file.location;
+  if (req.file && req.file.location) updateData.logo = req.file.location;
   const market = await Market.findByIdAndUpdate(req.params.id, updateData, {
     new: true,
     runValidators: true,

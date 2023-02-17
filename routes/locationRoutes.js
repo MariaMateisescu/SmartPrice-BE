@@ -11,7 +11,7 @@ router
 router
   .route('/:id')
   .get(locationController.getOneLocation)
-  .delete(locationController.deleteLocation)
   .patch(locationController.updateLocation);
 
+router.route('/:id/:marketId').delete(locationController.deleteLocation);
 module.exports = router;

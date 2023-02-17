@@ -52,6 +52,10 @@ exports.createLocation = catchAsync(async (req, res, next) => {
 exports.deleteLocation = catchAsync(async (req, res, next) => {
   const location = await Location.findByIdAndDelete(req.params.id);
 
+  const market = await Market.updateOne(
+    { _id: req.params.marketId },
+    { $pull: { locations: req.params.id } }
+  );
   if (!location) {
     return next(new AppError('No location with that ID', 404));
   }

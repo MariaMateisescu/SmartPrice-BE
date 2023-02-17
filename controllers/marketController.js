@@ -1,4 +1,5 @@
 const Market = require('../models/marketModel');
+const Location = require('../models/locationModel');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 
@@ -45,6 +46,9 @@ exports.createMarket = catchAsync(async (req, res, next) => {
 
 exports.deleteMarket = catchAsync(async (req, res, next) => {
   const market = await Market.findByIdAndDelete(req.params.id);
+  const locationsToDelete = await Location.deleteMany({
+    _id: { $in: market.locations },
+  });
 
   if (!market) {
     return next(new AppError('No market with that ID', 404));

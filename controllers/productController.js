@@ -45,9 +45,11 @@ exports.createProduct = catchAsync(async (req, res, next) => {
 });
 
 exports.deleteProduct = catchAsync(async (req, res, next) => {
-  const product = await Product.findByIdAndDelete(req.params.id);
-
-  if (!product) {
+  const location = await Location.updateOne(
+    { _id: req.params.locationId },
+    { $pull: { productsList: req.params.id } }
+  );
+  if (!location) {
     return next(new AppError('No product with that ID', 404));
   }
 

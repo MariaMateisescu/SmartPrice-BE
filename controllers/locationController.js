@@ -60,7 +60,7 @@ exports.deleteLocation = catchAsync(async (req, res, next) => {
     return next(new AppError('No location with that ID', 404));
   }
 
-  res.status(204).json({
+  res.json({
     status: 'success',
     data: null,
   });

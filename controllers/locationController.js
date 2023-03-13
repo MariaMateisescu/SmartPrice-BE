@@ -27,6 +27,50 @@ exports.getOneLocation = catchAsync(async (req, res, next) => {
   });
 });
 
+exports.getLocationsWithin = catchAsync(async (req, res, next) => {
+  const { radius, latlng } = req.params;
+  let [lat, lng] = latlng.split(',');
+  lat = parseFloat(lat);
+  lng = parseFloat(lng);
+  const rad = radius / 6378.1;
+  if (!lat || !lng) {
+    next(
+      new AppError(
+        'Please provide latitude and longitude in the format lat,lng.',
+        400
+      )
+    );
+  }
+
+  console.log(lat, lng);
+  // const locations = await Location.find({
+  //   coordinatesGeoJSON: { $geoWithin: { $centerSphere: [[lat, lng], rad] } },
+  // });
+  const markets = await Market.find();
+  const marketsWithin = [];
+  for (let market of markets) {
+    const locationsWithin = await Location.find({
+      _id: { $in: market.locations },
+      coordinatesGeoJSON: { $geoWithin: { $centerSphere: [[lat, lng], rad] } },
+    });
+    if (locationsWithin.length > 0) {
+      marketsWithin.push({
+        market: {
+          logo: market.logo,
+          _id: market._id,
+          name: market.name,
+        },
+        locations: locationsWithin,
+      });
+    }
+  }
+  res.status(200).json({
+    status: 'success',
+    results: marketsWithin.length,
+    marketsWithin,
+  });
+});
+
 exports.createLocation = catchAsync(async (req, res, next) => {
   const newLocation = await Location.create(req.body);
   console.log(req.body.marketId);

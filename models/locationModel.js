@@ -20,8 +20,22 @@ const locationSchema = new mongoose.Schema({
       type: Number,
     },
   },
+  coordinatesGeoJSON: {
+    // GeoJSON
+    type: {
+      type: String,
+      default: 'Point',
+      enum: ['Point'],
+    },
+    coordinates: [Number],
+    address: String,
+    description: String,
+  },
   productsList: [{ type: mongoose.Schema.ObjectId, ref: 'Product' }],
 });
+
+locationSchema.index({ coordinatesGeoJSON: '2dsphere' });
+
 locationSchema.pre(/^find/, function (next) {
   this.populate({
     path: 'productsList',

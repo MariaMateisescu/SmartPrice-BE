@@ -13,5 +13,9 @@ router
   .get(locationController.getOneLocation)
   .patch(locationController.updateLocation);
 
+router
+  .route('/locations-within/:radius/center/:latlng')
+  .get(locationController.getLocationsWithin);
+
 router.route('/:id/:marketId').delete(locationController.deleteLocation);
 module.exports = router;

@@ -40,6 +40,10 @@ locationSchema.pre(/^find/, function (next) {
   this.populate({
     path: 'productsList',
     select: '-__v',
+    populate: {
+      path: 'category',
+      select: '-__v',
+    },
   });
   next();
 });

@@ -5,9 +5,7 @@ const productSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Please insert name'],
   },
-  category: {
-    type: String,
-  },
+  category: { type: mongoose.Schema.ObjectId, ref: 'Category' },
   brand: {
     type: String,
   },

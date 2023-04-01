@@ -47,6 +47,9 @@ const userSchema = new mongoose.Schema({
     default: true,
     select: false,
   },
+  savedRecipes: {
+    type: [Number],
+  },
 });
 
 userSchema.pre('save', async function (next) {

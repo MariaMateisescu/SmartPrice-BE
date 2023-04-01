@@ -73,7 +73,6 @@ exports.getLocationsWithin = catchAsync(async (req, res, next) => {
 
 exports.createLocation = catchAsync(async (req, res, next) => {
   const newLocation = await Location.create(req.body);
-  console.log(req.body.marketId);
   Market.findOneAndUpdate(
     { _id: req.body.marketId },
     { $push: { locations: newLocation._id } },

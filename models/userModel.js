@@ -50,6 +50,12 @@ const userSchema = new mongoose.Schema({
   savedRecipes: {
     type: [Number],
   },
+  shoppingLists: [
+    {
+      type: mongoose.Schema.ObjectId,
+      ref: 'ShoppingList',
+    },
+  ],
 });
 
 userSchema.pre('save', async function (next) {
@@ -73,6 +79,18 @@ userSchema.pre('save', function (next) {
 userSchema.pre(/^find/, function (next) {
   // this points to the current query
   this.find({ active: { $ne: false } });
+  next();
+});
+
+userSchema.pre(/^find/, function (next) {
+  this.populate({
+    path: 'shoppingLists',
+    select: '-__v',
+    populate: {
+      path: 'listItems',
+      select: '-__v',
+    },
+  });
   next();
 });
 

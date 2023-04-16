@@ -16,6 +16,18 @@ exports.getAllProducts = catchAsync(async (req, res, next) => {
   });
 });
 
+exports.getUniqueProductNames = catchAsync(async (req, res, next) => {
+  const productNames = await Product.distinct('name');
+  console.log(productNames);
+
+  res.status(200).json({
+    status: 'success',
+    data: {
+      productNames,
+    },
+  });
+});
+
 exports.createProduct = catchAsync(async (req, res, next) => {
   const newProduct = await Product.create(req.body);
   const records = await Location.find({

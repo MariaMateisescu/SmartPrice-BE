@@ -34,6 +34,7 @@ exports.createShoppingList = catchAsync(async (req, res, next) => {
 
   res.status(200).json({
     user,
+    newListId: newShoppingList._id,
     status: 'success',
   });
 });
@@ -76,6 +77,55 @@ exports.patchShoppingList = catchAsync(async (req, res, next) => {
   if (!list) {
     return next(new AppError('No list found with that ID', 404));
   }
+
+  res.status(200).json({
+    status: 'success',
+    data: {
+      list: list,
+    },
+  });
+});
+
+exports.deleteShoppingList = catchAsync(async (req, res, next) => {
+  const list = await ShoppingList.findByIdAndDelete(req.params.id);
+
+  const itemIDsToDelete = list.listItems.map((it) => it._id);
+  const itemsToDelete = await ListItem.deleteMany({
+    _id: { $in: itemIDsToDelete },
+  });
+
+  if (!list) {
+    return next(new AppError('No list with that ID', 404));
+  }
+
+  res.json({
+    status: 'success',
+    data: null,
+  });
+});
+
+exports.endShoppingList = catchAsync(async (req, res, next) => {
+  const list = await ShoppingList.findByIdAndUpdate(
+    req.params.id,
+    {
+      status: 'completed',
+    },
+    {
+      new: true,
+      runValidators: true,
+    }
+  );
+  if (!list) {
+    return next(new AppError('No list found with that ID', 404));
+  }
+  const boughtItems = await ListItem.updateMany(
+    { item: { $in: req.body.boughtItems }, _id: { $in: list.listItems } },
+    { $set: { status: 'bought' } }
+  );
+  const notBoughtItems = await ListItem.updateMany(
+    { item: { $nin: req.body.boughtItems }, _id: { $in: list.listItems } },
+    { $set: { status: 'not_bought' } }
+  );
 
   res.status(200).json({
     status: 'success',

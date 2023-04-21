@@ -5,6 +5,9 @@ const categorySchema = new mongoose.Schema({
     type: String,
     required: [true, 'Please insert a category name'],
   },
+  icon: {
+    type: String,
+  },
 });
 
 const Category = mongoose.model('Category', categorySchema);

@@ -19,6 +19,14 @@ router
   .route('/patch-shopping-list/:id')
   .patch(shoppingListController.patchShoppingList);
 
+router
+  .route('/delete-shopping-list/:id')
+  .delete(shoppingListController.deleteShoppingList);
+
+router
+  .route('/end-shopping-list/:id')
+  .patch(shoppingListController.endShoppingList);
+
 router.route('/create-list-item').post(shoppingListController.createListItem);
 
 module.exports = router;

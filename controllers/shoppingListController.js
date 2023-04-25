@@ -108,7 +108,8 @@ exports.endShoppingList = catchAsync(async (req, res, next) => {
   const list = await ShoppingList.findByIdAndUpdate(
     req.params.id,
     {
-      status: 'completed',
+      status: req.body.status,
+      timeEnded: req.body.timeEnded,
     },
     {
       new: true,

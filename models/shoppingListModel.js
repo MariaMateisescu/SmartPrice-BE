@@ -17,6 +17,8 @@ const shoppingListSchema = new mongoose.Schema({
       ref: 'ListItem',
     },
   ],
+  timeStarted: { type: Number, default: 0 },
+  timeEnded: { type: Number, default: 0 },
 });
 
 shoppingListSchema.pre(/^find/, function (next) {

@@ -13,4 +13,7 @@ router.route('/:id').patch(productController.updateProduct);
 router.route('/:id/:locationId').delete(productController.deleteProduct);
 
 router.route('/get-unique-names').get(productController.getUniqueProductNames);
+router
+  .route('/get-unique-names/:id')
+  .get(productController.getUniqueNamesInOneCategory);
 module.exports = router;

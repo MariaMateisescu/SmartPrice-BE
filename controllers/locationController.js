@@ -1,5 +1,6 @@
 const Location = require('../models/locationModel');
 const Market = require('../models/marketModel');
+const ShoppingList = require('../models/shoppingListModel');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 
@@ -124,5 +125,55 @@ exports.updateLocation = catchAsync(async (req, res, next) => {
     data: {
       data: location,
     },
+  });
+});
+
+exports.calculateLocationsForListId = catchAsync(async (req, res, next) => {
+  // /calculate-locations/:shoppingListId/within/:radius/center/:latlng
+  const { shoppingListId, radius, latlng } = req.params;
+  let [lat, lng] = latlng.split(',');
+  lat = parseFloat(lat);
+  lng = parseFloat(lng);
+  const rad = radius / 6378.1;
+  if (!lat || !lng) {
+    next(
+      new AppError(
+        'Please provide latitude and longitude in the format lat,lng.',
+        400
+      )
+    );
+  }
+
+  const list = await ShoppingList.findById(shoppingListId);
+  const listProductsNames = list.listItems.map((item) => item.item);
+
+  const locations = await Location.find({
+    coordinatesGeoJSON: { $geoWithin: { $centerSphere: [[lat, lng], rad] } },
+  });
+  const calculatedLocations = JSON.parse(JSON.stringify(locations));
+
+  calculatedLocations.forEach((location) => {
+    location['count'] = 0;
+    location['availableItems'] = [];
+    location['total'] = 0;
+
+    location.productsList.forEach((item) => {
+      if (listProductsNames.includes(item.name)) {
+        location['count']++;
+        location['availableItems'].push(item);
+        location['total'] = location['total'] + item.price;
+      }
+    });
+  });
+  calculatedLocations.sort((a, b) => {
+    if (a.count === b.count) {
+      return b.total - a.total;
+    }
+    return b.count - a.count;
+  });
+  res.status(200).json({
+    status: 'success',
+    list,
+    calculatedLocations,
   });
 });

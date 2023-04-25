@@ -2,6 +2,7 @@ const Product = require('../models/productModel');
 const Location = require('../models/locationModel');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
+var mongoose = require('mongoose');
 
 exports.getAllProducts = catchAsync(async (req, res, next) => {
   const products = await Product.find();
@@ -18,13 +19,28 @@ exports.getAllProducts = catchAsync(async (req, res, next) => {
 
 exports.getUniqueProductNames = catchAsync(async (req, res, next) => {
   const productNames = await Product.distinct('name');
-  console.log(productNames);
 
   res.status(200).json({
     status: 'success',
     data: {
       productNames,
     },
+  });
+});
+
+exports.getUniqueNamesInOneCategory = catchAsync(async (req, res, next) => {
+  const productsInCategory = await Product.find({
+    category: req.params.id,
+  });
+  const set = new Set();
+  productsInCategory.forEach((product) => set.add(product.name));
+  const uniqueNamesArray = Array.from(set);
+
+  console.log(uniqueNamesArray);
+  // SEND RESPONSE
+  res.status(200).json({
+    status: 'success',
+    uniqueNamesArray,
   });
 });
 

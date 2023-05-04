@@ -34,20 +34,15 @@ exports.getOneCategory = catchAsync(async (req, res, next) => {
 
 exports.getOneCategoryInLocation = catchAsync(async (req, res, next) => {
   const location = await Location.findById(req.params.locationId);
-  const productsInCategory = await Product.find({ category: req.params.id });
-  const filteredProducts = productsInCategory.filter((...product) =>
-    location.productsList.includes(product._id)
+  const productsInCategoryInLocation = location.productsList.filter(
+    (product) => product.category._id == req.params.categoryId
   );
-  console.log(location);
-  console.log('---------------');
-  console.log(productsInCategory);
-  console.log(filteredProducts);
 
   res.status(200).json({
     status: 'success',
-    results: filteredProducts.length,
+    results: productsInCategoryInLocation.length,
     data: {
-      filteredProducts,
+      productsInCategoryInLocation,
     },
   });
 });

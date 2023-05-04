@@ -12,6 +12,14 @@ router
   .get(shoppingListController.getShoppingLists);
 
 router
+  .route('/get-active-list')
+  .get(shoppingListController.getActiveShoppingList);
+
+router
+  .route('/get-category-statistics')
+  .get(shoppingListController.getCategoryStatistics);
+
+router
   .route('/get-shopping-lists/:id')
   .get(shoppingListController.getOneShoppingList);
 

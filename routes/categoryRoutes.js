@@ -10,7 +10,7 @@ router
 
 router.route('/:id').get(categoryController.getOneCategory);
 router
-  .route('/:locationId/:id')
+  .route('/:locationId/:categoryId')
   .get(categoryController.getOneCategoryInLocation);
 
 module.exports = router;

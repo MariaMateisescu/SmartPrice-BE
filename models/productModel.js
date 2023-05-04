@@ -15,9 +15,14 @@ const productSchema = new mongoose.Schema({
   price: {
     type: Number,
   },
-  quantity: {
-    type: Number,
-  },
+});
+
+productSchema.pre(/^findOne/, function (next) {
+  this.populate({
+    path: 'category',
+    select: '-__v',
+  });
+  next();
 });
 
 const Product = mongoose.model('Product', productSchema);

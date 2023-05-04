@@ -19,6 +19,10 @@ const shoppingListSchema = new mongoose.Schema({
   ],
   timeStarted: { type: Number, default: 0 },
   timeEnded: { type: Number, default: 0 },
+  isRecipe: {
+    type: Number,
+    default: 0,
+  },
 });
 
 shoppingListSchema.pre(/^find/, function (next) {

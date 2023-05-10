@@ -203,6 +203,7 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
   }
 
   // 3) If so, update the password
+  user.name = req.body.name;
   user.password = req.body.password;
   user.passwordConfirm = req.body.passwordConfirm;
   await user.save();

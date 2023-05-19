@@ -56,6 +56,12 @@ const userSchema = new mongoose.Schema({
       ref: 'ShoppingList',
     },
   ],
+  fidelityCards: [
+    {
+      type: mongoose.Schema.ObjectId,
+      ref: 'Card',
+    },
+  ],
 });
 
 userSchema.pre('save', async function (next) {
@@ -90,6 +96,10 @@ userSchema.pre(/^find/, function (next) {
       path: 'listItems',
       select: '-__v',
     },
+  });
+  this.populate({
+    path: 'fidelityCards',
+    select: '-__v',
   });
   next();
 });

@@ -12,6 +12,7 @@ exports.createShoppingList = catchAsync(async (req, res, next) => {
   for (const product of req.body.selectedProducts) {
     const res = await ListItem.create({
       item: product,
+      status: 'pending',
     });
     savedListItems.push(res._id);
   }

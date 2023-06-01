@@ -33,7 +33,7 @@ exports.getLocationsWithin = catchAsync(async (req, res, next) => {
   let [lat, lng] = latlng.split(',');
   lat = parseFloat(lat);
   lng = parseFloat(lng);
-  const rad = radius / 6378.1;
+  const rad = radius / 6378.1; //equatorial radius of the earth
   if (!lat || !lng) {
     next(
       new AppError(

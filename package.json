@@ -7,7 +7,7 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node app.js",
     "start:prod": "SET NODE_ENV=production&&nodemon server.js",
     "debug": "ndb server.js",
     "vercel-build": "echo hello"

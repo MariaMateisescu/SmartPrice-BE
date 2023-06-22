@@ -61,9 +61,8 @@ exports.getLocationsWithin = catchAsync(async (req, res, next) => {
     }
   });
 
-  let marketsWithin = [];
-  await Promise.all(locationPromises).then(
-    (results) => (marketsWithin = results)
+  const marketsWithin = await Promise.all(locationPromises).then((results) =>
+    results.filter(Boolean)
   );
   res.status(200).json({
     status: 'success',

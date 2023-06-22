@@ -43,28 +43,28 @@ exports.getLocationsWithin = catchAsync(async (req, res, next) => {
     );
   }
 
-  console.log(lat, lng);
-  // const locations = await Location.find({
-  //   coordinatesGeoJSON: { $geoWithin: { $centerSphere: [[lat, lng], rad] } },
-  // });
   const markets = await Market.find();
-  const marketsWithin = [];
-  for (let market of markets) {
+  const locationPromises = markets.map(async (market) => {
     const locationsWithin = await Location.find({
       _id: { $in: market.locations },
       coordinatesGeoJSON: { $geoWithin: { $centerSphere: [[lat, lng], rad] } },
     });
     if (locationsWithin.length > 0) {
-      marketsWithin.push({
+      return {
         market: {
           logo: market.logo,
           _id: market._id,
           name: market.name,
         },
         locations: locationsWithin,
-      });
+      };
     }
-  }
+  });
+
+  let marketsWithin = [];
+  await Promise.all(locationPromises).then(
+    (results) => (marketsWithin = results)
+  );
   res.status(200).json({
     status: 'success',
     results: marketsWithin.length,

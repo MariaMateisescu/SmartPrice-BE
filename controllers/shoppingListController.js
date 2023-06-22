@@ -95,77 +95,57 @@ exports.getActiveShoppingList = catchAsync(async (req, res, next) => {
 });
 
 exports.getCategoryStatistics = catchAsync(async (req, res, next) => {
-  let token;
-  if (
-    req.headers.authorization &&
-    req.headers.authorization.startsWith('Bearer')
-  ) {
-    token = req.headers.authorization.split(' ')[1];
+  let token = null;
+  const authHeader = req.headers.authorization;
+  if (authHeader && authHeader.startsWith('Bearer')) {
+    token = authHeader.split(' ')[1];
   }
+
   const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
   const user = await User.findById(decoded.id);
+
   const lists = await ShoppingList.find({
     _id: { $in: user.shoppingLists },
     status: 'completed',
-    isRecipe: { $eq: 0 },
-  });
-  let mergedListItems = [];
-  lists.forEach((list) => mergedListItems.push(...list.listItems));
-  let filteredMergedListItems = mergedListItems.filter(
+    isRecipe: 0,
+  }).populate('listItems', 'item status');
+
+  const mergedListItems = lists.flatMap((list) => list.listItems);
+  const filteredMergedListItems = mergedListItems.filter(
     (item) => item.status === 'bought'
   );
 
-  const map = new Map();
-  filteredMergedListItems.forEach((item) => {
-    if (map.has(item.item)) {
-      const number = map.get(item.item) + 1;
-      map.set(item.item, number);
-    } else {
-      map.set(item.item, 1);
-    }
-  });
-
-  let categoryStatistics = [];
-  await (async () => {
-    for await (const entry of Array.from(map.entries())) {
-      const product = await Product.findOne({
-        name: entry[0],
-      });
-      categoryStatistics.push({
+  const categoryStatistics = await Promise.all(
+    filteredMergedListItems.map(async (item) => {
+      const product = await Product.findOne({ name: item.item });
+      return {
         category: product.category.name,
-        freq: entry[1],
-      });
-    }
-  })();
-  const categoryFreqSum = {};
+        freq: 1,
+      };
+    })
+  );
 
-  for (let i = 0; i < categoryStatistics.length; i++) {
-    const category = categoryStatistics[i].category;
-    const freq = categoryStatistics[i].freq;
-    if (category in categoryFreqSum) {
-      categoryFreqSum[category] += freq;
-    } else {
-      categoryFreqSum[category] = freq;
-    }
-  }
+  const categoryFreqSum = categoryStatistics.reduce((acc, curr) => {
+    const category = curr.category;
+    const freq = curr.freq;
+    acc[category] = (acc[category] || 0) + freq;
+    return acc;
+  }, {});
 
   const sortedCategoryFreqSum = Object.fromEntries(
     Object.entries(categoryFreqSum).sort((a, b) => b[1] - a[1])
   );
 
   const entries = Object.entries(sortedCategoryFreqSum);
-
-  let leastFrequentEntries;
-  let othersFreqSum;
   let compressedCategoryFreqSum;
+
   if (entries.length > 6) {
-    leastFrequentEntries = entries.slice(-(entries.length - 5));
-    othersFreqSum = leastFrequentEntries.reduce(
+    const leastFrequentEntries = entries.slice(-(entries.length - 5));
+    const othersFreqSum = leastFrequentEntries.reduce(
       (acc, [_, freq]) => acc + freq,
       0
     );
     const remainingEntries = entries.slice(0, -(entries.length - 5));
-
     compressedCategoryFreqSum = Object.fromEntries([
       ...remainingEntries,
       ['Others', othersFreqSum],
